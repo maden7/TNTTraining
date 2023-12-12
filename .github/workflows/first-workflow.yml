@@ -9,7 +9,7 @@ jobs:
       - run: echo Step 1 Complete
       - run: echo Step 2 Complete
   job2:
-    - name: Cowsays
+    name: Cowsays
     uses: mscoutermarsh/cowsays-action@v1
     with:
       # What does the cow say?
