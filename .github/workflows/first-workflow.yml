@@ -10,7 +10,6 @@ jobs:
       - run: echo Step 2 Complete
   job2:
     runs-on: ubuntu-latest
-    - name: Cowsays
     uses: mscoutermarsh/cowsays-action@v1
     with:
       # What does the cow say?
