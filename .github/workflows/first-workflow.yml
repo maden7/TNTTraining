@@ -6,6 +6,3 @@ jobs:
     steps:
       - run: echo Step 1 Complete
       - run: echo Step 2 Complete
-  job2:
-    name: My second job
-
