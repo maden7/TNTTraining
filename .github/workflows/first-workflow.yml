@@ -1,1 +1,7 @@
-
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - shell: bash
+        run: echo "Step 1 Complete"
+        run: echo "Step 2 Complete"
