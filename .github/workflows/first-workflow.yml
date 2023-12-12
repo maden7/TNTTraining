@@ -9,7 +9,6 @@ jobs:
       - run: echo Step 1 Complete
       - run: echo Step 2 Complete
   job2:
-    runs-on: ubuntu-latest
     uses: mscoutermarsh/cowsays-action@v1
     with:
       # What does the cow say?
@@ -17,4 +16,5 @@ jobs:
       # Color of your cow
       color: # optional, default is white
           
-      
+                
+            
