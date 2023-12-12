@@ -1,7 +1,11 @@
+name: learn-github-actions
+on: workflow_call
 jobs:
   job1:
-    runs-on: ubuntu-latest
+    name: My first job
     steps:
-      - shell: bash
-        run: echo "Step 1 Complete"
-        run: echo "Step 2 Complete"
+      - run: echo Step 1 Complete
+      - run: echo Step 2 Complete
+  job2:
+    name: My second job
+
